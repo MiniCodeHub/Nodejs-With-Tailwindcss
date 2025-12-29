@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import RandomQuoteGenerator from './pages/Random Quote Generator'
 import DarkLightModeToggle from './pages/Dark Light Mode Toggle'
+import Rough from './pages/Rough.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
       <div>
-        <DarkLightModeToggle/>
+        <Rough />
+        {/* <DarkLightModeToggle/> */}
         {/* <RandomQuoteGenerator /> */}
       </div>
     </>
