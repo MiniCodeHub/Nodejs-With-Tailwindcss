@@ -5,6 +5,7 @@ import DarkLightModeToggle from './pages/Dark Light Mode Toggle'
 import Rough from './pages/Rough.tsx'
 import HabitTrackerApp from './pages/new year special/Habit Tracker Web App.tsx'
 import Portfolio from './pages/new year special/Portfoilo.tsx'
+import NotesApp from './pages/new year special/Notes App.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,8 @@ function App() {
   return (
     <>
       <div>
-        <Portfolio />
+        <NotesApp />
+        {/* <Portfolio /> */}
         {/* <HabitTrackerApp /> */}
         {/* <Rough /> */}
         {/* <DarkLightModeToggle/> */}
