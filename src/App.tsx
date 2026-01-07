@@ -8,6 +8,7 @@ import Portfolio from './pages/new year special/Portfoilo.tsx'
 import NotesApp from './pages/new year special/Notes App.tsx'
 import SkeletonLoaderForAPIData from './pages/Skeleton Loader for API Data .tsx'
 import ProtectedRoutewithAuthState from './pages/Protected Route with Auth State.tsx'
+import ToastNotificationSystem from './pages/Toast Notification System.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ function App() {
   return (
     <>
       <div>
-        <ProtectedRoutewithAuthState/>
+        <ToastNotificationSystem />
+        {/* <ProtectedRoutewithAuthState/> */}
         {/* <SkeletonLoaderForAPIData/> */}
         {/* <NotesApp /> */}
         {/* <Portfolio /> */}
