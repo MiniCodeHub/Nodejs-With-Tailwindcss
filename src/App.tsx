@@ -9,6 +9,7 @@ import NotesApp from './pages/new year special/Notes App.tsx'
 import SkeletonLoaderForAPIData from './pages/Skeleton Loader for API Data .tsx'
 import ProtectedRoutewithAuthState from './pages/Protected Route with Auth State.tsx'
 import ToastNotificationSystem from './pages/Toast Notification System.tsx'
+import ClientSidePaginationComponent from './pages/Client-Side Pagination Component.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,8 @@ function App() {
   return (
     <>
       <div>
-        <ToastNotificationSystem />
+        <ClientSidePaginationComponent />
+        {/* <ToastNotificationSystem /> */}
         {/* <ProtectedRoutewithAuthState/> */}
         {/* <SkeletonLoaderForAPIData/> */}
         {/* <NotesApp /> */}
