@@ -11,6 +11,7 @@ import ProtectedRoutewithAuthState from './pages/Protected Route with Auth State
 import ToastNotificationSystem from './pages/Toast Notification System.tsx'
 import ClientSidePaginationComponent from './pages/Client-Side Pagination Component.tsx'
 import SearchFilterComponent from './pages/Search Filter Component.tsx'
+import MultiStepForm from './pages/Multi-Step Form (Stepper).tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +19,8 @@ function App() {
   return (
     <>
       <div>
-        <SearchFilterComponent />
+        <MultiStepForm />
+        {/* <SearchFilterComponent /> */}
         {/* <ClientSidePaginationComponent /> */}
         {/* <ToastNotificationSystem /> */}
         {/* <ProtectedRoutewithAuthState/> */}
