@@ -12,6 +12,7 @@ import ToastNotificationSystem from './pages/Toast Notification System.tsx'
 import ClientSidePaginationComponent from './pages/Client-Side Pagination Component.tsx'
 import SearchFilterComponent from './pages/Search Filter Component.tsx'
 import MultiStepForm from './pages/Multi-Step Form (Stepper).tsx'
+import ReusableCardComponents from './pages/Reusable Card Component.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +20,8 @@ function App() {
   return (
     <>
       <div>
-        <MultiStepForm />
+        <ReusableCardComponents />
+        {/* <MultiStepForm /> */}
         {/* <SearchFilterComponent /> */}
         {/* <ClientSidePaginationComponent /> */}
         {/* <ToastNotificationSystem /> */}
@@ -28,7 +30,7 @@ function App() {
         {/* <NotesApp /> */}
         {/* <Portfolio /> */}
         {/* <HabitTrackerApp /> */}
-        {/*<Rough />*/}
+        {/* <Rough /> */}
         {/* <DarkLightModeToggle/> */}
         {/* <RandomQuoteGenerator /> */}
       </div>
