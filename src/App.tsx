@@ -13,6 +13,7 @@ import ClientSidePaginationComponent from './pages/Client-Side Pagination Compon
 import SearchFilterComponent from './pages/Search Filter Component.tsx'
 import MultiStepForm from './pages/Multi-Step Form (Stepper).tsx'
 import ReusableCardComponents from './pages/Reusable Card Component.tsx'
+import RoleBasedUI from './pages/Role-Based UI Rendering.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,8 @@ function App() {
   return (
     <>
       <div>
-        <ReusableCardComponents />
+        <RoleBasedUI/>
+        {/* <ReusableCardComponents /> */}
         {/* <MultiStepForm /> */}
         {/* <SearchFilterComponent /> */}
         {/* <ClientSidePaginationComponent /> */}
