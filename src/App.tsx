@@ -14,6 +14,8 @@ import SearchFilterComponent from './pages/Search Filter Component.tsx'
 import MultiStepForm from './pages/Multi-Step Form (Stepper).tsx'
 import ReusableCardComponents from './pages/Reusable Card Component.tsx'
 import RoleBasedUI from './pages/Role-Based UI Rendering.tsx'
+import ResponsiveNavbarwithMobileMenu from './pages/Responsive Navbar with Mobile Menu.tsx'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +23,8 @@ function App() {
   return (
     <>
       <div>
-        <RoleBasedUI/>
+        <ResponsiveNavbarwithMobileMenu />
+        {/* <RoleBasedUI/> */}
         {/* <ReusableCardComponents /> */}
         {/* <MultiStepForm /> */}
         {/* <SearchFilterComponent /> */}
