@@ -16,7 +16,7 @@ import ReusableCardComponents from './pages/Reusable Card Component.tsx'
 import RoleBasedUI from './pages/Role-Based UI Rendering.tsx'
 import ResponsiveNavbarwithMobileMenu from './pages/Responsive Navbar with Mobile Menu.tsx'
 import ReusableButtonComponentSystem from './pages/Reusable Button Component System.tsx'
-import AnimationProgress from './pages/AnimatedProgress.tsx'
+import ResponsivePricingUi from "./pages/Responsive Pricing Cards UI.tsx"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,7 +24,8 @@ function App() {
   return (
     <>
       <div>
-        <AnimationProgress />
+        <ResponsivePricingUi />
+        {/* <AnimationProgress /> */}
         {/* <ReusableButtonComponentSystem /> */}
         {/* <ResponsiveNavbarwithMobileMenu /> */}
         {/* <RoleBasedUI/> */}
