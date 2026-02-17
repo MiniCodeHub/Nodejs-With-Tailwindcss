@@ -17,6 +17,7 @@ import RoleBasedUI from './pages/Role-Based UI Rendering.tsx'
 import ResponsiveNavbarwithMobileMenu from './pages/Responsive Navbar with Mobile Menu.tsx'
 import ReusableButtonComponentSystem from './pages/Reusable Button Component System.tsx'
 import ResponsivePricingUi from "./pages/Responsive Pricing Cards UI.tsx"
+import GlassmorphismCardHoverGallery from './pages/Glassmorphism Card Hover Gallery.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,7 +25,8 @@ function App() {
   return (
     <>
       <div>
-        <ResponsivePricingUi />
+        <GlassmorphismCardHoverGallery/>
+        {/* <ResponsivePricingUi /> */}
         {/* <AnimationProgress /> */}
         {/* <ReusableButtonComponentSystem /> */}
         {/* <ResponsiveNavbarwithMobileMenu /> */}
