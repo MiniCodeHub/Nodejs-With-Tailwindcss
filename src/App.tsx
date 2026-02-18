@@ -18,6 +18,7 @@ import ResponsiveNavbarwithMobileMenu from './pages/Responsive Navbar with Mobil
 import ReusableButtonComponentSystem from './pages/Reusable Button Component System.tsx'
 import ResponsivePricingUi from "./pages/Responsive Pricing Cards UI.tsx"
 import GlassmorphismCardHoverGallery from './pages/Glassmorphism Card Hover Gallery.tsx'
+import QRCodeGenerator from './pages/QR Code Generator.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +26,8 @@ function App() {
   return (
     <>
       <div>
-        <GlassmorphismCardHoverGallery/>
+        <QRCodeGenerator/>
+        {/* <GlassmorphismCardHoverGallery/> */}
         {/* <ResponsivePricingUi /> */}
         {/* <AnimationProgress /> */}
         {/* <ReusableButtonComponentSystem /> */}
