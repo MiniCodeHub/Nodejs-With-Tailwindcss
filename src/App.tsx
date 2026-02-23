@@ -20,6 +20,7 @@ import ResponsivePricingUi from "./pages/Responsive Pricing Cards UI.tsx"
 import GlassmorphismCardHoverGallery from './pages/Glassmorphism Card Hover Gallery.tsx'
 import QRCodeGenerator from './pages/QR Code Generator.tsx'
 import AnimatedToastNotificationSystem from './pages/Animated Toast Notification System.tsx'
+import DraggableKanbanBoard from './pages/Draggable Kanban Board.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,8 @@ function App() {
   return (
     <>
       <div>
-        <AnimatedToastNotificationSystem />
+        <DraggableKanbanBoard/>
+        {/* <AnimatedToastNotificationSystem /> */}
         {/* <QRCodeGenerator/> */}
         {/* <GlassmorphismCardHoverGallery/> */}
         {/* <ResponsivePricingUi /> */}
