@@ -531,7 +531,7 @@ export default function GlassGallery() {
 
           <div
             style={{
-              width: 60,
+              width: 100,
               height: 1,
               background:
                 "linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent)",
