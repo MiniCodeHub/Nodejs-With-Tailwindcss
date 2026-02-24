@@ -181,8 +181,8 @@ function GlassCard({ card, index }: GlassCardProps) {
           position: "absolute",
           top: 0,
           left: hovered ? "160%" : "-100%",
-          width: "100%",
-          height: "100%",
+          width: "100vw",
+          height: "100vh",
           background:
             "linear-gradient(105deg,transparent 30%,rgba(255,255,255,0.07) 50%,transparent 70%)",
           transition: "left 0.7s ease",
