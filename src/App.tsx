@@ -21,6 +21,7 @@ import GlassmorphismCardHoverGallery from './pages/Glassmorphism Card Hover Gall
 import QRCodeGenerator from './pages/QR Code Generator.tsx'
 import AnimatedToastNotificationSystem from './pages/Animated Toast Notification System.tsx'
 import DraggableKanbanBoard from './pages/Draggable Kanban Board.tsx'
+import LiveMarkDownPreviewer from './pages/Live Markdown Previewer.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,7 +29,8 @@ function App() {
   return (
     <>
       <div>
-        <DraggableKanbanBoard/>
+        <LiveMarkDownPreviewer/>
+        {/* <DraggableKanbanBoard/> */}
         {/* <AnimatedToastNotificationSystem /> */}
         {/* <QRCodeGenerator/> */}
         {/* <GlassmorphismCardHoverGallery/> */}
