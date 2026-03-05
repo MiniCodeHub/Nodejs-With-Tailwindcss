@@ -25,6 +25,7 @@ import LiveMarkDownPreviewer from './pages/Live Markdown Previewer.tsx'
 import StarRatingComponent from './pages/Star Rating Component.tsx'
 import AccordionCollapsibleFAQ from './pages/Accordion Collapsible FAQ.tsx'
 import Sidebar  from './pages/Sidebar.tsx'
+import ProductGrid from './pages/Product Grid.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,7 +33,8 @@ function App() {
   return (
     <>
       <div>
-        <Sidebar/>
+        <ProductGrid />
+        {/* <Sidebar/> */}
         {/* <AccordionCollapsibleFAQ/> */}
         {/* <StarRatingComponent /> */}
         {/* <LiveMarkDownPreviewer/> */}
