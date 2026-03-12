@@ -27,6 +27,8 @@ import AccordionCollapsibleFAQ from './pages/Accordion Collapsible FAQ.tsx'
 import Sidebar  from './pages/Sidebar.tsx'
 import ProductGrid from './pages/Product Grid.tsx'
 import MultiStepForm2 from './pages/Multi-Step Form.tsx'
+import AnalyticsDashboard from './pages/Analytics Dashboard.tsx'
+import Dashboard from './pages/Dashboard.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,7 +36,9 @@ function App() {
   return (
     <>
       <div>
-        <MultiStepForm2 />
+        <Dashboard />
+        {/* <AnalyticsDashboard /> */}
+        {/* <MultiStepForm2 /> */}
         {/* <ProductGrid /> */}
         {/* <Sidebar/> */}
         {/* <AccordionCollapsibleFAQ/> */}
