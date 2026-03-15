@@ -28,6 +28,7 @@ import Sidebar  from './pages/Sidebar.tsx'
 import ProductGrid from './pages/Product Grid.tsx'
 import MultiStepForm2 from './pages/Multi-Step Form.tsx'
 import AnalyticsDashboard from './pages/Analytics Dashboard.tsx'
+import DynamicTable from './pages/Dynamic Table.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -35,7 +36,8 @@ function App() {
   return (
     <>
       <div>
-        <AnalyticsDashboard />
+        <DynamicTable />
+        {/* <AnalyticsDashboard /> */}
         {/* <MultiStepForm2 /> */}
         {/* <ProductGrid /> */}
         {/* <Sidebar/> */}
