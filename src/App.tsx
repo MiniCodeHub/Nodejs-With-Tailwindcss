@@ -32,13 +32,15 @@ import DynamicTable from './pages/Dynamic Table.tsx'
 import LightboxGallery from './pages/Lightbox Gallery.tsx'
 import ExpenseTracker from './pages/Expense Tracker.tsx'
 import FormValidator from './pages/Form Validator.tsx'
+import PomodoroTimer from './pages/Pomodoro Timer.tsx'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <FormValidator />
+        <PomodoroTimer />
+        {/* <FormValidator /> */}
         {/* <ExpenseTracker /> */}
         {/* <LightboxGallery /> */}
         {/* <DynamicTable /> */}
