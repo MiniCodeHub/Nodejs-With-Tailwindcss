@@ -33,13 +33,16 @@ import LightboxGallery from './pages/Lightbox Gallery.tsx'
 import ExpenseTracker from './pages/Expense Tracker.tsx'
 import FormValidator from './pages/Form Validator.tsx'
 import PomodoroTimer from './pages/Pomodoro Timer.tsx'
+import I18nSwitcher from './pages/i18n Switcher.tsx'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <PomodoroTimer />
+        <I18nSwitcher />
+        {/* <PomodoroTimer /> */}
         {/* <FormValidator /> */}
         {/* <ExpenseTracker /> */}
         {/* <LightboxGallery /> */}
