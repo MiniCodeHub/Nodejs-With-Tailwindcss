@@ -34,6 +34,7 @@ import ExpenseTracker from './pages/Expense Tracker.tsx'
 import FormValidator from './pages/Form Validator.tsx'
 import PomodoroTimer from './pages/Pomodoro Timer.tsx'
 import I18nSwitcher from './pages/i18n Switcher.tsx'
+import CheckoutForm from './pages/Checkout Form.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -41,7 +42,8 @@ function App() {
   return (
     <>
       <div>
-        <I18nSwitcher />
+        <CheckoutForm />
+        {/* <I18nSwitcher /> */}
         {/* <PomodoroTimer /> */}
         {/* <FormValidator /> */}
         {/* <ExpenseTracker /> */}
