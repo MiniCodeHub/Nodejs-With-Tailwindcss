@@ -35,6 +35,7 @@ import FormValidator from './pages/Form Validator.tsx'
 import PomodoroTimer from './pages/Pomodoro Timer.tsx'
 import I18nSwitcher from './pages/i18n Switcher.tsx'
 import CheckoutForm from './pages/Checkout Form.tsx'
+import CollapsibleSidebar from './pages/Collapsible Sidebar.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -42,7 +43,8 @@ function App() {
   return (
     <>
       <div>
-        <CheckoutForm />
+        <CollapsibleSidebar />
+        {/* <CheckoutForm /> */}
         {/* <I18nSwitcher /> */}
         {/* <PomodoroTimer /> */}
         {/* <FormValidator /> */}
