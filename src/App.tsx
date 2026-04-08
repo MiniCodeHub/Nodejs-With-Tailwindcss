@@ -36,6 +36,7 @@ import PomodoroTimer from './pages/Pomodoro Timer.tsx'
 import I18nSwitcher from './pages/i18n Switcher.tsx'
 import CheckoutForm from './pages/Checkout Form.tsx'
 import CollapsibleSidebar from './pages/Collapsible Sidebar.tsx'
+import NotificationCenter from './pages/Notification Center.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -43,7 +44,8 @@ function App() {
   return (
     <>
       <div>
-        <CollapsibleSidebar />
+        <NotificationCenter />
+        {/* <CollapsibleSidebar /> */}
         {/* <CheckoutForm /> */}
         {/* <I18nSwitcher /> */}
         {/* <PomodoroTimer /> */}
