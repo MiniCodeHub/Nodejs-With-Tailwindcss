@@ -37,6 +37,7 @@ import I18nSwitcher from './pages/i18n Switcher.tsx'
 import CheckoutForm from './pages/Checkout Form.tsx'
 import CollapsibleSidebar from './pages/Collapsible Sidebar.tsx'
 import NotificationCenter from './pages/Notification Center.tsx'
+import DataDashboard from './pages/Data Dashboard.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -44,7 +45,8 @@ function App() {
   return (
     <>
       <div>
-        <NotificationCenter />
+        <DataDashboard />
+        {/* <NotificationCenter /> */}
         {/* <CollapsibleSidebar /> */}
         {/* <CheckoutForm /> */}
         {/* <I18nSwitcher /> */}
