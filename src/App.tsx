@@ -38,6 +38,7 @@ import CheckoutForm from './pages/Checkout Form.tsx'
 import CollapsibleSidebar from './pages/Collapsible Sidebar.tsx'
 import NotificationCenter from './pages/Notification Center.tsx'
 import DataDashboard from './pages/Data Dashboard.tsx'
+import InfiniteScroll from './pages/Infinite Scroll.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -45,7 +46,8 @@ function App() {
   return (
     <>
       <div>
-        <DataDashboard />
+        <InfiniteScroll />
+        {/* <DataDashboard /> */}
         {/* <NotificationCenter /> */}
         {/* <CollapsibleSidebar /> */}
         {/* <CheckoutForm /> */}
