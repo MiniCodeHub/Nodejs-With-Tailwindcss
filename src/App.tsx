@@ -40,6 +40,7 @@ import NotificationCenter from './pages/Notification Center.tsx'
 import DataDashboard from './pages/Data Dashboard.tsx'
 import InfiniteScroll from './pages/Infinite Scroll.tsx'
 import TagInput from './pages/Tag Input.tsx'
+import ColorPaletteGenerator from  './pages/Color Palette Generator.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -47,7 +48,8 @@ function App() {
   return (
     <>
       <div>
-        <TagInput/>
+        <ColorPaletteGenerator/>
+        {/* <TagInput/> */}
         {/* <InfiniteScroll /> */}
         {/* <DataDashboard /> */}
         {/* <NotificationCenter /> */}
