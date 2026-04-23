@@ -41,6 +41,7 @@ import DataDashboard from './pages/Data Dashboard.tsx'
 import InfiniteScroll from './pages/Infinite Scroll.tsx'
 import TagInput from './pages/Tag Input.tsx'
 import ColorPaletteGenerator from  './pages/Color Palette Generator.tsx'
+import SplitPane from './pages/Split Pane.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -48,7 +49,8 @@ function App() {
   return (
     <>
       <div>
-        <ColorPaletteGenerator/>
+        <SplitPane />
+        {/* <ColorPaletteGenerator/> */}
         {/* <TagInput/> */}
         {/* <InfiniteScroll /> */}
         {/* <DataDashboard /> */}
