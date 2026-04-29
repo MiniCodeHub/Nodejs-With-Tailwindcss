@@ -43,6 +43,7 @@ import TagInput from './pages/Tag Input.tsx'
 import ColorPaletteGenerator from  './pages/Color Palette Generator.tsx'
 import SplitPane from './pages/Split Pane.tsx'
 import Timelinefeed from './pages/Timeline feed.tsx'
+import Avatargroup from './pages/avatar group.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -50,7 +51,8 @@ function App() {
   return (
     <>
       <div>
-        <Timelinefeed />
+        <Avatargroup />
+        {/* <Timelinefeed /> */}
         {/* <SplitPane /> */}
         {/* <ColorPaletteGenerator/> */}
         {/* <TagInput/> */}
