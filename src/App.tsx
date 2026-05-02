@@ -43,7 +43,8 @@ import TagInput from './pages/Tag Input.tsx'
 import ColorPaletteGenerator from  './pages/Color Palette Generator.tsx'
 import SplitPane from './pages/Split Pane.tsx'
 import Timelinefeed from './pages/Timeline feed.tsx'
-import Avatargroup from './pages/avatar group.tsx'
+// import Avatargroup from './pages/avatar group.tsx'
+import ReactTWCommandPalette from './pages/React TW Command Palette (Spotlight Search UI).tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -51,7 +52,8 @@ function App() {
   return (
     <>
       <div>
-        <Avatargroup />
+        <ReactTWCommandPalette />
+        {/* <Avatargroup /> */}
         {/* <Timelinefeed /> */}
         {/* <SplitPane /> */}
         {/* <ColorPaletteGenerator/> */}
