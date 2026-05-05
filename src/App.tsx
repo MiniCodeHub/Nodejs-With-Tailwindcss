@@ -45,6 +45,7 @@ import SplitPane from './pages/Split Pane.tsx'
 import Timelinefeed from './pages/Timeline feed.tsx'
 // import Avatargroup from './pages/avatar group.tsx'
 import ReactTWCommandPalette from './pages/React TW Command Palette (Spotlight Search UI).tsx'
+import KanbanBoardwithColumnLevelCardCoun from './pages/Kanban Board with Column-Level Card Coun.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -52,7 +53,8 @@ function App() {
   return (
     <>
       <div>
-        <ReactTWCommandPalette />
+        <KanbanBoardwithColumnLevelCardCoun />
+        {/* <ReactTWCommandPalette /> */}
         {/* <Avatargroup /> */}
         {/* <Timelinefeed /> */}
         {/* <SplitPane /> */}
