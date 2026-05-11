@@ -47,6 +47,7 @@ import Timelinefeed from './pages/Timeline feed.tsx'
 import ReactTWCommandPalette from './pages/React TW Command Palette (Spotlight Search UI).tsx'
 import KanbanBoardwithColumnLevelCardCoun from './pages/Kanban Board with Column-Level Card Coun.tsx'
 import NotificationCenterwithReadUnreadStates from './pages/Notification Center with Read Unread States.tsx'
+import StepperProgressTrackerComponent from './pages/Stepper Progress Tracker Component.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -54,7 +55,8 @@ function App() {
   return (
     <>
       <div>
-        <NotificationCenterwithReadUnreadStates />
+        <StepperProgressTrackerComponent />
+        {/* <NotificationCenterwithReadUnreadStates /> */}
         {/* <KanbanBoardwithColumnLevelCardCoun /> */}
         {/* <ReactTWCommandPalette /> */}
         {/* <Avatargroup /> */}
