@@ -48,6 +48,7 @@ import ReactTWCommandPalette from './pages/React TW Command Palette (Spotlight S
 import KanbanBoardwithColumnLevelCardCoun from './pages/Kanban Board with Column-Level Card Coun.tsx'
 import NotificationCenterwithReadUnreadStates from './pages/Notification Center with Read Unread States.tsx'
 import StepperProgressTrackerComponent from './pages/Stepper Progress Tracker Component.tsx'
+import RichTextEditorBoldItalicListsNoLibrary from './pages/Rich Text Editor Bold Italic Lists No Library.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -55,7 +56,8 @@ function App() {
   return (
     <>
       <div>
-        <StepperProgressTrackerComponent />
+        <RichTextEditorBoldItalicListsNoLibrary />
+        {/* <StepperProgressTrackerComponent /> */}
         {/* <NotificationCenterwithReadUnreadStates /> */}
         {/* <KanbanBoardwithColumnLevelCardCoun /> */}
         {/* <ReactTWCommandPalette /> */}
