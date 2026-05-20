@@ -50,6 +50,7 @@ import NotificationCenterwithReadUnreadStates from './pages/Notification Center 
 import StepperProgressTrackerComponent from './pages/Stepper Progress Tracker Component.tsx'
 import RichTextEditorBoldItalicListsNoLibrary from './pages/Rich Text Editor Bold Italic Lists No Library.tsx'
 import NestedDropdownMenuMultiLevel from './pages/Nested Dropdown Menu Multi-Level.tsx'
+import FileTreeExplorerCollapsibleFolders from './pages/File Tree Explorer Collapsible Folders.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -57,7 +58,8 @@ function App() {
   return (
     <>
       <div>
-        <NestedDropdownMenuMultiLevel />
+        <FileTreeExplorerCollapsibleFolders />
+        {/* <NestedDropdownMenuMultiLevel /> */}
         {/* <RichTextEditorBoldItalicListsNoLibrary /> */}
         {/* <StepperProgressTrackerComponent /> */}
         {/* <NotificationCenterwithReadUnreadStates /> */}
