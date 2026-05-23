@@ -51,6 +51,7 @@ import StepperProgressTrackerComponent from './pages/Stepper Progress Tracker Co
 import RichTextEditorBoldItalicListsNoLibrary from './pages/Rich Text Editor Bold Italic Lists No Library.tsx'
 import NestedDropdownMenuMultiLevel from './pages/Nested Dropdown Menu Multi-Level.tsx'
 import FileTreeExplorerCollapsibleFolders from './pages/File Tree Explorer Collapsible Folders.tsx'
+import UserProfileCardwithEditModeToggle from './pages/User Profile Card with Edit Mode Toggle.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -58,7 +59,8 @@ function App() {
   return (
     <>
       <div>
-        <FileTreeExplorerCollapsibleFolders />
+        <UserProfileCardwithEditModeToggle />
+        {/* <FileTreeExplorerCollapsibleFolders /> */}
         {/* <NestedDropdownMenuMultiLevel /> */}
         {/* <RichTextEditorBoldItalicListsNoLibrary /> */}
         {/* <StepperProgressTrackerComponent /> */}
