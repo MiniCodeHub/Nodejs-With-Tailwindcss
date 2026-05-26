@@ -52,6 +52,7 @@ import RichTextEditorBoldItalicListsNoLibrary from './pages/Rich Text Editor Bol
 import NestedDropdownMenuMultiLevel from './pages/Nested Dropdown Menu Multi-Level.tsx'
 import FileTreeExplorerCollapsibleFolders from './pages/File Tree Explorer Collapsible Folders.tsx'
 import UserProfileCardwithEditModeToggle from './pages/User Profile Card with Edit Mode Toggle.tsx'
+import AnimatedOnboardingFlow3StepIntro from './pages/Animated Onboarding Flow 3-Step Intro.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -59,7 +60,8 @@ function App() {
   return (
     <>
       <div>
-        <UserProfileCardwithEditModeToggle />
+        <AnimatedOnboardingFlow3StepIntro />
+        {/* <UserProfileCardwithEditModeToggle /> */}
         {/* <FileTreeExplorerCollapsibleFolders /> */}
         {/* <NestedDropdownMenuMultiLevel /> */}
         {/* <RichTextEditorBoldItalicListsNoLibrary /> */}
