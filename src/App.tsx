@@ -53,6 +53,7 @@ import NestedDropdownMenuMultiLevel from './pages/Nested Dropdown Menu Multi-Lev
 import FileTreeExplorerCollapsibleFolders from './pages/File Tree Explorer Collapsible Folders.tsx'
 import UserProfileCardwithEditModeToggle from './pages/User Profile Card with Edit Mode Toggle.tsx'
 import AnimatedOnboardingFlow3StepIntro from './pages/Animated Onboarding Flow 3-Step Intro.tsx'
+import LiveCurrencyConverterUI from './pages/Live Currency Converter UI.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -60,7 +61,8 @@ function App() {
   return (
     <>
       <div>
-        <AnimatedOnboardingFlow3StepIntro />
+        <LiveCurrencyConverterUI />
+        {/* <AnimatedOnboardingFlow3StepIntro /> */}
         {/* <UserProfileCardwithEditModeToggle /> */}
         {/* <FileTreeExplorerCollapsibleFolders /> */}
         {/* <NestedDropdownMenuMultiLevel /> */}
