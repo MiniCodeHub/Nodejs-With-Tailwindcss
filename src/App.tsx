@@ -54,6 +54,7 @@ import FileTreeExplorerCollapsibleFolders from './pages/File Tree Explorer Colla
 import UserProfileCardwithEditModeToggle from './pages/User Profile Card with Edit Mode Toggle.tsx'
 import AnimatedOnboardingFlow3StepIntro from './pages/Animated Onboarding Flow 3-Step Intro.tsx'
 import LiveCurrencyConverterUI from './pages/Live Currency Converter UI.tsx'
+import VirtualScrollingListLargeDatasetNoLibrary from './pages/Virtual Scrolling List (Large Dataset, No Library).tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -61,7 +62,8 @@ function App() {
   return (
     <>
       <div>
-        <LiveCurrencyConverterUI />
+        <VirtualScrollingListLargeDatasetNoLibrary />
+        {/* <LiveCurrencyConverterUI /> */}
         {/* <AnimatedOnboardingFlow3StepIntro /> */}
         {/* <UserProfileCardwithEditModeToggle /> */}
         {/* <FileTreeExplorerCollapsibleFolders /> */}
