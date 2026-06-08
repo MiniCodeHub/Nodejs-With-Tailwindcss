@@ -56,6 +56,7 @@ import AnimatedOnboardingFlow3StepIntro from './pages/Animated Onboarding Flow 3
 import LiveCurrencyConverterUI from './pages/Live Currency Converter UI.tsx'
 import VirtualScrollingListLargeDatasetNoLibrary from './pages/Virtual Scrolling List (Large Dataset, No Library).tsx'
 import SpreadsheetStyleEditableTable from './pages/Spreadsheet-Style Editable Table.tsx'
+import DragtoResizePaneluseRefMouseEvents from './pages/Drag-to-Resize Panel useRef Mouse Events.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -63,7 +64,8 @@ function App() {
   return (
     <>
       <div>
-        <SpreadsheetStyleEditableTable />
+        <DragtoResizePaneluseRefMouseEvents />
+        {/* <SpreadsheetStyleEditableTable /> */}
         {/* <VirtualScrollingListLargeDatasetNoLibrary /> */}
         {/* <LiveCurrencyConverterUI /> */}
         {/* <AnimatedOnboardingFlow3StepIntro /> */}
