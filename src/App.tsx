@@ -57,6 +57,7 @@ import LiveCurrencyConverterUI from './pages/Live Currency Converter UI.tsx'
 import VirtualScrollingListLargeDatasetNoLibrary from './pages/Virtual Scrolling List (Large Dataset, No Library).tsx'
 import SpreadsheetStyleEditableTable from './pages/Spreadsheet-Style Editable Table.tsx'
 import DragtoResizePaneluseRefMouseEvents from './pages/Drag-to-Resize Panel useRef Mouse Events.tsx'
+import ChatBubbleUIwithSentReceivedStates from './pages/Chat Bubble UI with Sent Received States.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -64,7 +65,8 @@ function App() {
   return (
     <>
       <div>
-        <DragtoResizePaneluseRefMouseEvents />
+        <ChatBubbleUIwithSentReceivedStates />
+        {/* <DragtoResizePaneluseRefMouseEvents /> */}
         {/* <SpreadsheetStyleEditableTable /> */}
         {/* <VirtualScrollingListLargeDatasetNoLibrary /> */}
         {/* <LiveCurrencyConverterUI /> */}
