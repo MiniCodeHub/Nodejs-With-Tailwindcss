@@ -58,6 +58,7 @@ import VirtualScrollingListLargeDatasetNoLibrary from './pages/Virtual Scrolling
 import SpreadsheetStyleEditableTable from './pages/Spreadsheet-Style Editable Table.tsx'
 import DragtoResizePaneluseRefMouseEvents from './pages/Drag-to-Resize Panel useRef Mouse Events.tsx'
 import ChatBubbleUIwithSentReceivedStates from './pages/Chat Bubble UI with Sent Received States.tsx'
+import RechartsStyleLineChartBuiltfromScratchSVG from './pages/Recharts-Style Line Chart Built from Scratch (SVG).tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -65,7 +66,8 @@ function App() {
   return (
     <>
       <div>
-        <ChatBubbleUIwithSentReceivedStates />
+        <RechartsStyleLineChartBuiltfromScratchSVG />
+        {/* <ChatBubbleUIwithSentReceivedStates /> */}
         {/* <DragtoResizePaneluseRefMouseEvents /> */}
         {/* <SpreadsheetStyleEditableTable /> */}
         {/* <VirtualScrollingListLargeDatasetNoLibrary /> */}
