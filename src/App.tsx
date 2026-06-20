@@ -60,6 +60,7 @@ import DragtoResizePaneluseRefMouseEvents from './pages/Drag-to-Resize Panel use
 import ChatBubbleUIwithSentReceivedStates from './pages/Chat Bubble UI with Sent Received States.tsx'
 import RechartsStyleLineChartBuiltfromScratchSVG from './pages/Recharts-Style Line Chart Built from Scratch (SVG).tsx'
 import ScrollSnappingFullPageSections from './pages/Scroll-Snapping Full-Page Sections.tsx'
+import ResponsiveMasonryImageGrid from './pages/Responsive Masonry Image Grid.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -67,7 +68,8 @@ function App() {
   return (
     <>
       <div>
-        <ScrollSnappingFullPageSections />
+        <ResponsiveMasonryImageGrid />
+        {/* <ScrollSnappingFullPageSections /> */}
         {/* <RechartsStyleLineChartBuiltfromScratchSVG /> */}
         {/* <ChatBubbleUIwithSentReceivedStates /> */}
         {/* <DragtoResizePaneluseRefMouseEvents /> */}
