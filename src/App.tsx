@@ -61,6 +61,7 @@ import ChatBubbleUIwithSentReceivedStates from './pages/Chat Bubble UI with Sent
 import RechartsStyleLineChartBuiltfromScratchSVG from './pages/Recharts-Style Line Chart Built from Scratch (SVG).tsx'
 import ScrollSnappingFullPageSections from './pages/Scroll-Snapping Full-Page Sections.tsx'
 import ResponsiveMasonryImageGrid from './pages/Responsive Masonry Image Grid.tsx'
+import ContextMenuRightClickwithSubmenu from './pages/Context Menu (Right-Click) with Submenu.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -68,7 +69,8 @@ function App() {
   return (
     <>
       <div>
-        <ResponsiveMasonryImageGrid />
+        <ContextMenuRightClickwithSubmenu />
+        {/* <ResponsiveMasonryImageGrid /> */}
         {/* <ScrollSnappingFullPageSections /> */}
         {/* <RechartsStyleLineChartBuiltfromScratchSVG /> */}
         {/* <ChatBubbleUIwithSentReceivedStates /> */}
