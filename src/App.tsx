@@ -62,6 +62,7 @@ import RechartsStyleLineChartBuiltfromScratchSVG from './pages/Recharts-Style Li
 import ScrollSnappingFullPageSections from './pages/Scroll-Snapping Full-Page Sections.tsx'
 import ResponsiveMasonryImageGrid from './pages/Responsive Masonry Image Grid.tsx'
 import ContextMenuRightClickwithSubmenu from './pages/Context Menu (Right-Click) with Submenu.tsx'
+import MultiTenantThemeSwitcherCSSVariablesviaReact from './pages/Multi-Tenant Theme Switcher (CSS Variables via React).tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -69,7 +70,8 @@ function App() {
   return (
     <>
       <div>
-        <ContextMenuRightClickwithSubmenu />
+        <MultiTenantThemeSwitcherCSSVariablesviaReact />
+        {/* <ContextMenuRightClickwithSubmenu /> */}
         {/* <ResponsiveMasonryImageGrid /> */}
         {/* <ScrollSnappingFullPageSections /> */}
         {/* <RechartsStyleLineChartBuiltfromScratchSVG /> */}
