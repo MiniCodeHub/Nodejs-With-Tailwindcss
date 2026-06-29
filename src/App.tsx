@@ -63,6 +63,7 @@ import ScrollSnappingFullPageSections from './pages/Scroll-Snapping Full-Page Se
 import ResponsiveMasonryImageGrid from './pages/Responsive Masonry Image Grid.tsx'
 import ContextMenuRightClickwithSubmenu from './pages/Context Menu (Right-Click) with Submenu.tsx'
 import MultiTenantThemeSwitcherCSSVariablesviaReact from './pages/Multi-Tenant Theme Switcher (CSS Variables via React).tsx'
+import FeedbackSurveyFormwithStepRatingComment from './pages/Feedback Survey Form with Step Rating Comment.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -70,7 +71,8 @@ function App() {
   return (
     <>
       <div>
-        <MultiTenantThemeSwitcherCSSVariablesviaReact />
+        <FeedbackSurveyFormwithStepRatingComment />
+        {/* <MultiTenantThemeSwitcherCSSVariablesviaReact /> */}
         {/* <ContextMenuRightClickwithSubmenu /> */}
         {/* <ResponsiveMasonryImageGrid /> */}
         {/* <ScrollSnappingFullPageSections /> */}
