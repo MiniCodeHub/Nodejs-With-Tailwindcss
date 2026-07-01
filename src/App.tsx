@@ -64,6 +64,7 @@ import ResponsiveMasonryImageGrid from './pages/Responsive Masonry Image Grid.ts
 import ContextMenuRightClickwithSubmenu from './pages/Context Menu (Right-Click) with Submenu.tsx'
 import MultiTenantThemeSwitcherCSSVariablesviaReact from './pages/Multi-Tenant Theme Switcher (CSS Variables via React).tsx'
 import FeedbackSurveyFormwithStepRatingComment from './pages/Feedback Survey Form with Step Rating Comment.tsx'
+import Episode1 from './pages/Trello-Style Task Manager/Episode 1.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -71,7 +72,8 @@ function App() {
   return (
     <>
       <div>
-        <FeedbackSurveyFormwithStepRatingComment />
+        <Episode1 />
+        {/* <FeedbackSurveyFormwithStepRatingComment /> */}
         {/* <MultiTenantThemeSwitcherCSSVariablesviaReact /> */}
         {/* <ContextMenuRightClickwithSubmenu /> */}
         {/* <ResponsiveMasonryImageGrid /> */}
