@@ -66,6 +66,7 @@ import MultiTenantThemeSwitcherCSSVariablesviaReact from './pages/Multi-Tenant T
 import FeedbackSurveyFormwithStepRatingComment from './pages/Feedback Survey Form with Step Rating Comment.tsx'
 import Episode1 from './pages/Trello-Style Task Manager/Episode 1.tsx'
 import Episode2 from './pages/Trello-Style Task Manager/Episode 2.tsx'
+import Episode3 from './pages/Trello-Style Task Manager/Episode 3.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -73,7 +74,8 @@ function App() {
   return (
     <>
       <div>
-        <Episode2/>
+        <Episode3/>
+        {/* <Episode2/> */}
         {/* <Episode1 /> */}
         {/* <FeedbackSurveyFormwithStepRatingComment /> */}
         {/* <MultiTenantThemeSwitcherCSSVariablesviaReact /> */}
