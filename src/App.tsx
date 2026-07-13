@@ -67,6 +67,7 @@ import FeedbackSurveyFormwithStepRatingComment from './pages/Feedback Survey For
 import Episode1 from './pages/Trello-Style Task Manager/Episode 1.tsx'
 import Episode2 from './pages/Trello-Style Task Manager/Episode 2.tsx'
 import Episode3 from './pages/Trello-Style Task Manager/Episode 3.tsx'
+import Episode4 from './pages/Trello-Style Task Manager/Episode 4.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -74,7 +75,8 @@ function App() {
   return (
     <>
       <div>
-        <Episode3/>
+        <Episode4 />
+        {/* <Episode3/> */}
         {/* <Episode2/> */}
         {/* <Episode1 /> */}
         {/* <FeedbackSurveyFormwithStepRatingComment /> */}
