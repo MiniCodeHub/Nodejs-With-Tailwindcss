@@ -69,6 +69,7 @@ import Episode2 from './pages/Trello-Style Task Manager/Episode 2.tsx'
 import Episode3 from './pages/Trello-Style Task Manager/Episode 3.tsx'
 import Episode4 from './pages/Trello-Style Task Manager/Episode 4.tsx'
 import Episode5 from './pages/Trello-Style Task Manager/Episode 5.tsx'
+import Episode6 from './pages/Trello-Style Task Manager/Episode 6.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -76,7 +77,8 @@ function App() {
   return (
     <>
       <div>
-        <Episode5 />
+        <Episode6 />
+        {/* <Episode5 /> */}
         {/* <Episode4 /> */}
         {/* <Episode3/> */}
         {/* <Episode2/> */}
