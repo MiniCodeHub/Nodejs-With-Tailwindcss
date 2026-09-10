@@ -82,6 +82,7 @@ import Episode15 from './pages/Trello-Style Task Manager/Episode 15.tsx'
 import Episode16 from './pages/Trello-Style Task Manager/Episode 16.tsx'
 import Episode17 from './pages/Trello-Style Task Manager/Episode 17.tsx'
 import Episode18 from './pages/Trello-Style Task Manager/Episode 18.tsx'
+import Episode19 from './pages/Trello-Style Task Manager/Episode 19.tsx'
 
 
 function App() {
@@ -90,7 +91,8 @@ function App() {
   return (
     <>
       <div>
-        <Episode18 />
+        <Episode19 />
+        {/* <Episode18 /> */}
         {/* <Episode17 /> */}
         {/* <Episode16/> */}
         {/* <Episode15/> */}
